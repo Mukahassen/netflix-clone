@@ -1,0 +1,20 @@
+/* Include base styles from Tailwind CSS */
+@tailwind base;
+
+/* Include component styles from Tailwind CSS */
+@tailwind components;
+
+/* Include utility classes from Tailwind CSS */
+@tailwind utilities;
+
+/* Import Google Fonts for the 'Lato' font family */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+/* Style for the body element */
+body {
+    /* Set background color to black */
+    background-color: #000000;
+
+    /* Use 'Lato' as the preferred font, with fallbacks if not available */
+    font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
